@@ -55,7 +55,7 @@ imageInput.addEventListener('change', async (event) => {
         var data = new FormData();
         data.append("image", file);
 
-        const IMGBB_API_KEY = "d96c7cacb366e5c9587da66fc7e4c5df";
+        const IMGBB_API_KEY = "dad23e87f556c4df39213f7ca0794984";
 
         const result = await fetch(`https://api.imgbb.com/1/upload?key=${IMGBB_API_KEY}`, {
             method: 'POST',
